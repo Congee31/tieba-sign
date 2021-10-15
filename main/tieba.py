@@ -12,9 +12,9 @@ from urllib.request import urlopen
 
 class tieba:
     # bduss
-    bduss = ''
+    bduss = 'NCRkJ6ME5qQXNBUXF5RzY1MlJrUlRqeFQ0dXZzcDhuQ3pqMVVaMnBSQTVvSHRoRVFBQUFBJCQAAAAAAQAAAAEAAACPOXM5Q29uZ2VlMTMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADkTVGE5E1RheV'
     # 填入自己的百度id
-    myid = ''
+    myid = 'Congee13'
 
     url = 'http://tieba.baidu.com/home/main?un=' + myid + '&fr=index'
     headers = {'Cookie': 'BDUSS=' + bduss}
